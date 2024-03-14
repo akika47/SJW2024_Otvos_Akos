@@ -27,7 +27,7 @@ body {
 
 #title {
     font-size: 3rem;
-    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);;
     color: white;
 }
 
@@ -54,4 +54,53 @@ h2 {
     font-family: "Marhey", sans-serif;
     text-decoration: underline wavy var(--vilagoskek);
     font-variant: small-caps;
+}
+
+.blueShadow{
+    box-shadow: 1px 1px 3px var(--sotetkek);
+}
+
+.secondImg{
+    margin-bottom: 3rem;
+}
+
+table{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 1px 10px var(--sotetkek);
+}
+
+thead{
+    color: white;
+    background-color: var(--vilagoskek);
+}
+
+th{
+    text-align: center;
+    font-family: "Marhey", sans-serif;
+}
+
+#blueTitle{
+    background-color: var(--sotetkek);
+}
+
+td{
+    background-color: rgba(18, 131, 185, 0.1);
+    color: var(--sotetkek);
+}
+
+tr:hover{
+    background-color: rgba(18, 131, 185, 0.7);
+}
+
+table td:first-child{
+    font-weight: bold;
+    font-variant: small-caps;
+    width: 25%;
+}
+
+tr{
+    border-bottom: 1px solid var(--sotetkek);
+    padding: 5px;
 }
