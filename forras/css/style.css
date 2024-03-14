@@ -13,6 +13,8 @@
 body {
     width: 100%;
     min-height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
 #header {
@@ -27,7 +29,7 @@ body {
 
 #title {
     font-size: 3rem;
-    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     color: white;
 }
 
@@ -103,4 +105,28 @@ table td:first-child{
 tr{
     border-bottom: 1px solid var(--sotetkek);
     padding: 5px;
+}
+
+#imgGrid{
+    display: grid;
+    grid-template-columns: repeat(1fr,4);
+    grid-template-rows: repeat(1fr,3);
+}
+
+
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    background-image: url("/forras/img/wave.svg");
+    background-size: cover;
+    background-position: center;
+}
+#footerText{
+    font-size: 1.5rem;
+    align-self: flex-end;
+    color: white;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);;
 }
