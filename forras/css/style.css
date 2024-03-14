@@ -113,6 +113,10 @@ tr{
     grid-template-rows: repeat(1fr,3);
 }
 
+#imgGrid{
+    filter: grayscale(70%);
+}
+
 
 
 
